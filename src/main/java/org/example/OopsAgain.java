@@ -2,6 +2,7 @@ package org.example;
 
 import java.lang.reflect.AccessibleObject;
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 
 public class OopsAgain {
     public static void main(String[] args) throws Exception{
@@ -21,21 +22,40 @@ public class OopsAgain {
         Class<?> clazz = Class.forName("org.example.Bar");
         Field field = clazz.getDeclaredField("hidden");
         Field type = Field.class.getDeclaredField("type");
+        // this line :
         AccessibleObject.setAccessible(
                 new AccessibleObject[]{
-                        field ,type
-                },
-                true
+                        type,field
+                },true
         );
+        // is equivalent to field.setAccessible(true); && type.setAccessible(true);
+        assert field.isAccessible();
+
         type.set(field,String.class);
         field.set(
                 Bar,"should print 5"
         );
         Object hidden = field.get(Bar);
         System.out.println(hidden);
+
+        Method speakMeth = clazz.getDeclaredMethod("speak");
+        speakMeth.setAccessible(true);
+        speakMeth.invoke(Bar);
+
     }
+
+
 }
 
 class Bar{
     private int hidden = 10 ;
+    private void speak(){
+        System.out.println("I am speaking..");
+    }
+}
+
+interface WSSystem{
+    void doSomething();
+    void run();
+    void stop();
 }
