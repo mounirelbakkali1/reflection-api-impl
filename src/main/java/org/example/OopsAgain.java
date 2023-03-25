@@ -42,6 +42,11 @@ public class OopsAgain {
         speakMeth.setAccessible(true);
         speakMeth.invoke(Bar);
 
+        VI[] values = VI.class.getEnumConstants();
+        for (VI value : values){
+            System.out.println(value);
+        }
+        Field[] fields = WSSystem.class.getDeclaredFields();
     }
 
 
@@ -58,4 +63,8 @@ interface WSSystem{
     void doSomething();
     void run();
     void stop();
+}
+
+enum VI{
+    ONE , TWO , THREE
 }

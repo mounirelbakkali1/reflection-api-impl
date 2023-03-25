@@ -5,6 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115a3a8e-214c-4b20-99ac-189fb3b0c563" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/attachApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attachApp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attachApp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attachApp/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attachApp/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attachApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attachApp/src/main/java/com/example/attachapp/AttachAppApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attachApp/src/main/java/com/example/attachapp/ressources/BankController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attachApp/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attachApp/src/test/java/com/example/attachapp/AttachAppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OopsAgain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OopsAgain.java" afterDir="false" />
     </list>
@@ -21,7 +34,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/attachApp" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,17 +47,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17 (2)",
     "last_opened_file_path": "D:/Level_up/demo_sec",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.38390803"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OopsAgain">
+  <component name="RunManager" selected="Spring Boot.AttachAppApplication">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -111,9 +129,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AttachAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="attachApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.attachapp.AttachAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Oops" />
       <item itemvalue="Application.OopsAgain" />
+      <item itemvalue="Spring Boot.AttachAppApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -132,7 +158,7 @@
       <updated>1679408189854</updated>
       <workItem from="1679505948275" duration="190000" />
       <workItem from="1679506412322" duration="919000" />
-      <workItem from="1679743524252" duration="8845000" />
+      <workItem from="1679743524252" duration="11854000" />
     </task>
     <servers />
   </component>
